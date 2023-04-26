@@ -84,6 +84,10 @@
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.1.10-preview1" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GitHub Dark Default No Editor.pkgdef">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="GitHub Dark Default.pkgdef">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
